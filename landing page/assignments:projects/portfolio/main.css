@@ -1,7 +1,10 @@
 body {
   background: black;
+  font-family: 'Avenir';
 }
-
+p {
+  text-align: center;
+}
 img{
   width: 100%;
   position: relative;
@@ -35,51 +38,93 @@ img{
 
 /* labels linking to other pages */
 
-.twodlink{
-  position: absolute;
-  top: 130px;
-  left: 200px;
-  height: 60px;
-  width: 140px;
+    .twodlink{
+      position: absolute;
+      top: 130px;
+      left: 200px;
+      height: 60px;
+      width: 140px;
+    }
+
+      .twodlink a{
+        font-size: 25pt;
+        color: rgba(0, 0, 0, 0.0);
+      }
+
+    .threedlink{
+      position: absolute;
+      top: 230px;
+      left: 1170px;
+      height: 60px;font-size: 30pt;
+      color: rgba(0, 0, 0, 0.0);
+    }
+      .threedlink a{
+        font-size: 30pt;
+        color: rgba(0, 0, 0, 0.0);
+      }
+    .animationlink{
+      position: absolute;
+      top: 450px;
+      left: 90px;
+      height: 60px;
+      width: 160px;
+    }
+      .animationlink a{
+        font-size: 30pt;
+        color: rgba(0, 0, 0, 0.0);
+      }
+
+    .graphicdesignlink{
+      position: absolute;
+      top: 470px;
+      left: 1160px;
+      height: 60px;
+      width: 240px;
+    }
+
+    .graphicdesignlink a{
+      font-size: 30pt;
+      color: rgba(0, 0, 0, 0.0);
+    }
+
+    .otherworklink{
+      position: absolute;
+      top: 680px;
+      left: 290px;
+      height: 60px;
+      width: 190px;
+    }
+
+    .otherworklink a{
+      font-size: 25pt;
+      color: rgba(0, 0, 0, 0.0);
+    }
+
+    .aboutlink{
+      position: absolute;
+      top: 660px;
+      left: 1010px;
+      height: 60px;
+      width: 140px;
+    }
+    .aboutlink a{
+      font-size: 30pt;
+      color: rgba(0, 0, 0, 0.0);
+    }
+
+/* 2d work page */
+.background{
+  width: 75%;
+  height: 90%;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
-.threedlink{
-  position: absolute;
-  top: 230px;
-  left: 1170px;
-  height: 60px;
-  width: 140px;
-  z-index: 999
+.background img{
+  margin-top: 100px
 }
 
-.animationlink{
-  position: absolute;
-  top: 450px;
-  left: 90px;
-  height: 60px;
-  width: 160px;
-}
-
-.graphicdesignlink{
-  position: absolute;
-  top: 470px;
-  left: 1160px;
-  height: 60px;
-  width: 240px;
-}
-
-.otherworklink{
-  position: absolute;
-  top: 680px;
-  left: 290px;
-  height: 60px;
-  width: 190px;
-}
-
-.aboutlink{
-  position: absolute;
-  top: 660px;
-  left: 1010px;
-  height: 60px;
-  width: 140px;
+.caption {
+  color: white;
+  font: Avenir;
 }
