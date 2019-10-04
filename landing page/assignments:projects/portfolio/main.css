@@ -57,18 +57,19 @@ img{
       top: 130px;
       left: 200px;
       height: 60px;
-      width: 140px;
+      width: 160px;
     }
 
       .twodlink a{
+        position: absolute;
         font-size: 25pt;
         color: rgba(0, 0, 0, 0.0);
       }
 
     .threedlink{
       position: absolute;
-      top: 230px;
-      left: 1170px;
+      top: 240px;
+      left: 1240px;
       height: 60px;font-size: 30pt;
       color: rgba(0, 0, 0, 0.0);
     }
@@ -78,10 +79,10 @@ img{
       }
     .animationlink{
       position: absolute;
-      top: 450px;
+      top: 500px;
       left: 90px;
       height: 60px;
-      width: 160px;
+      width: 180px;
     }
       .animationlink a{
         font-size: 30pt;
@@ -90,10 +91,10 @@ img{
 
     .graphicdesignlink{
       position: absolute;
-      top: 470px;
-      left: 1160px;
+      top: 500px;
+      left: 1230px;
       height: 60px;
-      width: 240px;
+      width: 280px;
     }
 
     .graphicdesignlink a{
@@ -103,10 +104,10 @@ img{
 
     .otherworklink{
       position: absolute;
-      top: 680px;
-      left: 290px;
+      top: 730px;
+      left: 310px;
       height: 60px;
-      width: 190px;
+      width: 200px;
     }
 
     .otherworklink a{
@@ -116,8 +117,8 @@ img{
 
     .aboutlink{
       position: absolute;
-      top: 660px;
-      left: 1010px;
+      top: 710px;
+      left: 1090px;
       height: 60px;
       width: 140px;
     }
@@ -126,7 +127,6 @@ img{
       color: rgba(0, 0, 0, 0.0);
     }
 
-/* 2d work page */
 .background{
   width: 75%;
   height: 90%;
@@ -151,5 +151,19 @@ img{
 
 .captionthreed p {
   color: rgb(4,232,158);
+  font-size: 25pt;
+}
+
+.captionanimation p {
+  color: rgb(5,254,252);
+  font-size: 25pt;
+}
+
+.captiongraphicdesign p {
+  color: rgb(8,179,255);
+  font-size: 25pt;
+}
+.captionotherwork p {
+  color: rgb(8,101,255);
   font-size: 25pt;
 }
