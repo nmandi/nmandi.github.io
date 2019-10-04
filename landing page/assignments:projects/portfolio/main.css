@@ -20,7 +20,7 @@ img{
   position: absolute;
 }
 
-.black {
+/* .black {
   background-color: black;
   width: 92%;
   height: 100%;
@@ -28,7 +28,8 @@ img{
   margin-top: 0;
   padding-top: 0;
   margin-left: 4.2%;
-}
+} */
+
 /* labels on homepage */
       .twod {
         position: absolute;
@@ -130,7 +131,7 @@ img{
   width: 75%;
   height: 90%;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .background img{
@@ -139,4 +140,16 @@ img{
 
 .captiontwod p {
   color: rgb(8,255,97);
+  font-size: 25pt;
+}
+
+.heading {
+  margin-top: 50px;
+  width: 100%;
+  height: 100px;
+}
+
+.captionthreed p {
+  color: rgb(4,232,158);
+  font-size: 25pt;
 }
