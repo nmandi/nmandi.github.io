@@ -1,0 +1,36 @@
+body {
+  background: black;
+  font-family: 'Avenir';
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 30pt;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 15pt;
+    }
+
+p2 {
+  text-align: center;
+  color: blue;
+  font-size: 15pt;
+}
+
+a {
+  text-align: center;
+  color: blue;
+}
